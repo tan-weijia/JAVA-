@@ -1,14 +1,23 @@
 package computer;
 
 public class HardDisk {
-	HardDisk(){
-		
-	}
+	
 	int amount;
-	void setAmount(int m){
-		amount=m;
-	}
+	int price;
 	int getAmount(){
 		return amount;
+	}
+	void setAmount(int amount){
+		this.amount=amount;
+	}
+	
+	public int getPrice(){
+		return price;
+	}
+	public void setPrice(int price){
+		this.price=price;
+	}
+HardDisk(){
+		
 	}
 }
