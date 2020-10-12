@@ -13,7 +13,9 @@ public class PC {
 		HD=h;
 	}
 	public void show(){
-		System.out.println("cpuµÄËÙ¶È£º"+cpu.getSpeed()+
-				        "Ó²ÅÌµÄÈİÁ¿£º"+HD.getAmount());
+		System.out.println("cpuçš„é€Ÿåº¦:"+cpu.getSpeed()+
+				        "ç¡¬ç›˜çš„å®¹é‡:"+HD.getAmount()+
+				        "ç¡¬ç›˜ä»·æ ¼:"+HD.getPrice()+
+				        "cpuçš„å“ç‰Œ:"+cpu.getbrand());
 	}
 }
