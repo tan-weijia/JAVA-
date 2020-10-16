@@ -15,8 +15,24 @@
           （2）PC调用setCPU(CPU c)方法，调用实时参是cpu；PC调用setHardDisk(HardDisk h)方法，调用实时参是disk；PC调用show()方法。
 ...
 ## 核心方法：
-1. 
+1. public class CPU {
+	int speed;
+	public String brand; 
+	void setSpeed(int m){
+		speed=m;
+	}
+	public int getSpeed(){
+		return speed;
+	}
+	public String getbrand(){
+		return brand;
+	}
+	public void setbrand(String brand){
+		this.brand=brand;
+	}
+}
 2. 
 3. 
+4. 
 ## 实验结果：
 ## 实验感想：
