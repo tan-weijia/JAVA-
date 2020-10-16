@@ -31,7 +31,27 @@
 		this.brand=brand;
 	}
 }
-2. 
+2. public class HardDisk {
+	
+	int amount;
+	int price;
+	int getAmount(){
+		return amount;
+	}
+	void setAmount(int amount){
+		this.amount=amount;
+	}
+	
+	public int getPrice(){
+		return price;
+	}
+	public void setPrice(int price){
+		this.price=price;
+	}
+HardDisk(){
+		
+	}
+}
 3. 
 4. 
 ## 实验结果：
